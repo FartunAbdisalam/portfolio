@@ -12,14 +12,26 @@ const projects = [
   {
     img: p1,
     title: "kanban Board",
+    gitBtn: "GitHub",
+    gitLink: "https://github.com/FartunAbdisalam/Animated",
+    demoBtn: "Live Demo",
+    demoLink: "https://fartunabdisalam.github.io/Animated/",
   },
   {
     img: pp2,
     title: "React Web Application",
+    gitBtn: "GitHub",
+    gitLink: "#",
+    demoBtn: "Live Demo",
+    demoLink: "#",
   },
   {
     img: p3,
     title: "Full-Stack E-commerce",
+    gitBtn: "GitHub",
+    gitLink: "#",
+    demoBtn: "Live Demo",
+    demoLink: "#",
   },
 ];
 

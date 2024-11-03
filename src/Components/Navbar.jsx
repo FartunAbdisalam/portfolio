@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="sticky py-5 bg-zinc-100">
-      <div className="container px-20 mx-auto relative flex items-center justify-between">
+      <div className="container lg:px-20 px-5 mx-auto relative flex items-center justify-between">
         <h1 className="text-xl tracking-tight">Fartun Abdisalam</h1>
         <ul className="hidden lg:flex space-x-10 text-lg">
           {navItems.map((item, index) => (

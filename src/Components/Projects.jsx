@@ -28,18 +28,18 @@ const Projects = () => {
             <div className="flex justify-center space-x-2">
               <button className="bg-white border border-black p-2 w-32 rounded-full ">
                 <a
-                  href="#"
+                  href={items.gitLink}
                   className="text-black text-lg tracking-wide text-center p-2"
                 >
-                  GitHub
+                  {items.gitBtn}
                 </a>
               </button>
               <button className="bg-white border border-black p-2 rounded-full ">
                 <a
-                  href="#"
+                  href={items.demoLink}
                   className="text-black text-lg tracking-wide text-center p-2"
                 >
-                  Live Demo
+                  {items.demoBtn}
                 </a>
               </button>
             </div>

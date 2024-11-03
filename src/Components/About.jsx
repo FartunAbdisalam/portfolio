@@ -8,9 +8,9 @@ const About = () => {
       <h1 className="text-center text-3xl font-semibold tracking-wider">
         About Me
       </h1>
-      <div className="container p-5 grid grid-cols-1 lg:grid-cols-3 gap-x-3 gap-y-3">
+      <div className="p-5 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-x-3 gap-y-3">
         <img
-          className="lg:w-96 lg:h-96 rounded-xl lg:row-span-2"
+          className="md:hidden lg:block lg:w-96 lg:h-96 rounded-xl lg:row-span-2"
           src={imeg}
           alt=""
         />
@@ -27,7 +27,7 @@ const About = () => {
           <p className="text-slate-700">B.Sc in Software Engineer</p>
           <p className="text-slate-700">Software Development training</p>
         </div>
-        <div className="lg:col-span-2">
+        <div className="lg:col-span-2 md:col-span-2">
           <p className="p-5 text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
             fugiat recusandae consequatur dolorum ipsam ab libero excepturi
