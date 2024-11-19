@@ -1,6 +1,6 @@
 import React from "react";
 import { Award, GraduationCap } from "lucide-react";
-import imeg from "../assets/imeg.webp";
+import profilePic from "../assets/profilePic.jpg";
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
       <div className="p-5 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-x-3 gap-y-3">
         <img
           className="md:hidden lg:block lg:w-96 lg:h-96 rounded-xl lg:row-span-2"
-          src={imeg}
+          src={profilePic}
           alt=""
         />
 

@@ -1,13 +1,13 @@
 import React from "react";
 import { Linkedin, Github } from "lucide-react";
-import imeg from "../assets/imeg.webp";
+import pic1 from "../assets/pic1.jpg";
 
 const Herosection = () => {
   return (
     <section className="py-12 px-5 my-12">
       <div className="lg:flex items-center justify-center align-center lg:space-x-12 space-y-4 py-5">
         <div className="flex justify-center align-center">
-          <img className="rounded-full w-80 h-80 p-3" src={imeg} alt="" />
+          <img className="rounded-full w-80 h-80 p-3" src={pic1} alt="" />
         </div>
         <div className="space-y-4 text-center p-3">
           <p className="text-slate-500 text-center">Hello, I'm</p>

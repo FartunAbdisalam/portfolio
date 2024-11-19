@@ -9,7 +9,6 @@ const Footer = () => {
       <span className="text-md">
         Copyright &copy; {getYear()} Fartun Abdislam
       </span>
-      {/* <span className="text-md"> {getYear()} Fartun Abdislam</span> */}
     </div>
   );
 };
