@@ -1,5 +1,7 @@
 import React from "react";
-import { Linkedin, Github } from "lucide-react";
+// import { FaSquareGithub } from "react-icons/fa6";
+// import { FaLinkedin } from "react-icons/fa6";
+import { heroSecInfo } from "../Constants/index";
 import pic1 from "../assets/pic1.jpg";
 
 const Herosection = () => {
@@ -25,9 +27,13 @@ const Herosection = () => {
               <a className="text-white text-center p-3">Contact Info</a>
             </button>
           </div>
-          <div className="flex justify-center items-center space-x-4 mt-5">
-            {<Linkedin size={30} />}
-            {<Github size={30} />}
+
+          <div className="flex justify-center items-center space-x-4 mt-7 p-3">
+            {heroSecInfo.map((item, index) => (
+              <a href={item.link} key={index}>
+                {item.icon}
+              </a>
+            ))}
           </div>
         </div>
       </div>

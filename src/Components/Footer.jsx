@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="flex justify-center align-center text-center mt-12 py-4">
       <span className="text-md">
-        Copyright &copy; {getYear()} Fartun Abdislam
+        Copyright &copy; {getYear()} Fartun Abdisalam
       </span>
     </div>
   );

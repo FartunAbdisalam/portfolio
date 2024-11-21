@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="lg:flex justify-between align-center lg:w-1/2 border border-black p-4 rounded-2xl bg-gray-100 space-y-2 lg:space-y-0">
           {contactsInfo.map((item, index) => (
             <div key={index} className="flex space-x-2 px-3">
-              <a href="#" className="rounded " size={32}>
+              <a href="#" className="rounded">
                 {item.icon}
               </a>
               <span className="text-lg tracking-tight">{item.info}</span>

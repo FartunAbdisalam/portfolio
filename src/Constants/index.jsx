@@ -1,7 +1,10 @@
 import p1 from "../assets/p1.jpg";
 import pp2 from "../assets/pp2.jpg";
 import p3 from "../assets/p3.png";
-import { Mail, Linkedin } from "lucide-react";
+import { FaLink } from "react-icons/fa6";
+import { FiMail } from "react-icons/fi";
+import { FaSquareGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
 import { BadgeCheck } from "lucide-react";
 export const navItems = [
   { label: "About", href: "#" },
@@ -9,22 +12,32 @@ export const navItems = [
   { label: "Projects", href: "#" },
   { label: "Contact", href: "#" },
 ];
+export const heroSecInfo = [
+  {
+    icon: <FaLinkedin size={32} />,
+    link: "#",
+  },
+  {
+    icon: <FaSquareGithub size={32} />,
+    link: "https://github.com/FartunAbdisalam",
+  },
+];
 const projects = [
   {
     img: p1,
     title: "kanban Board",
     gitBtn: "GitHub",
-    gitLink: "https://github.com/FartunAbdisalam/Animated",
+    gitLink: "https://github.com/FartunAbdisalam/Drag-and-Drop",
     demoBtn: "Live Demo",
-    demoLink: "https://fartunabdisalam.github.io/Animated/",
+    demoLink: "https://fartunabdisalam.github.io/Drag-and-Drop/",
   },
   {
     img: pp2,
     title: "React Web Application",
     gitBtn: "GitHub",
-    gitLink: "#",
+    gitLink: "https://github.com/FartunAbdisalam/devops",
     demoBtn: "Live Demo",
-    demoLink: "#",
+    demoLink: "https://kismayotechfirm.netlify.app/",
   },
   {
     img: p3,
@@ -38,11 +51,11 @@ const projects = [
 
 export const contactsInfo = [
   {
-    icon: <Mail />,
-    info: "FartunAbdisalam@email.com",
+    icon: <FiMail size={28} />,
+    info: "fartunabdisalam10@gmail.com",
   },
   {
-    icon: <Linkedin />,
+    icon: <FaLink size={28} />,
     info: "Linkedln",
   },
 ];
